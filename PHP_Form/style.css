@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 80%;
+    /* background-color: rgb(255, 255, 255); */
+    margin: auto;
+    padding: 23px;
+    border-radius: 10px;
+    /* margin-top: 20px; */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.container h3{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Sriracha', cursive;
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+.form-description{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Sriracha', cursive;
+    font-size: 20px;
+}
+
+.form-thanks{
+    text-align: center;
+    color: rgb(48, 114, 66);
+    font-family: 'Sriracha', cursive;
+    font-size: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+label{
+    align-items: start;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    margin: 5px 0 0 20px;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="phone"], textarea{
+    width: 80%;
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+button[type="submit"]{
+    display: inline;
+    padding: 10px 20px;
+    background-color: #4caf56;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button[type="reset"]{
+    display: inline;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bg{
+    width: 100%;
+    min-height: 500px;
+    z-index: -1;
+    position: absolute;
+    opacity: 0.3;
+}
